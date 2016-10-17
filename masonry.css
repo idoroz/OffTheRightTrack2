@@ -1,0 +1,181 @@
+@media only screen  and (min-width : 1920px) {
+
+h1.sketchHeader {
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 2em;
+}
+
+div.gridWrapper {
+    position: absolute;
+    height: 2304px;
+    width: 1920px;
+    top: 135em;
+}
+
+div.grid {
+    position: absolute;
+    width: 1920px;
+    height: 2304px;
+    margin-left: 0px;
+}
+
+
+/*For the best layout, margin should be added to .card and padding should be added to .front and .back*/
+
+.card {
+    position: absolute;
+    margin: 0;
+    width: 480px;
+    height: 768px;
+}
+
+
+/* fluid 5 columns */
+
+.grid-sizer,
+.grid-item {
+    width: 480px;
+    /* height: auto;*/
+    height: 768px;
+    /*margin: auto;*/
+}
+
+div.grid-item img {
+    width: 480px;
+    height: 768px;
+    position: relative;
+    z-index: 1;
+}
+
+div.toGalleryWrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+div.toGallery {
+    /*    position: absolute;*/
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+}
+
+/*-----------------------------------------------------*/
+
+
+/*|                                                   |*/
+
+
+/*|  ------ responsive Masonry STYLING ----------       |*/
+
+
+/*|                                                   |*/
+
+
+/*-----------------------------------------------------*/
+
+
+
+
+
+
+@media only screen  and (min-width : 1024px) { 
+
+    div.gridWrapper {
+    position: absolute;
+    height: 2304px;
+    width: 1280px;
+    top: 135em;
+}
+
+div.grid {
+    position: absolute;
+    width: 1280px;
+    height: 2304px;
+    margin-left: 0px;
+}
+
+
+/*For the best layout, margin should be added to .card and padding should be added to .front and .back*/
+
+.card {
+    position: absolute;
+    margin: 0;
+    width: 320px;
+    height: 518px;
+}
+
+
+/* fluid 5 columns */
+
+.grid-sizer,
+.grid-item {
+    width: 320px;
+    /* height: auto;*/
+    height: 518px;
+    /*margin: auto;*/
+}
+
+div.grid-item img {
+    width: 320px;
+    height: 518px;
+    position: relative;
+    z-index: 1;
+}
+
+}
+
+
+@media only screen  and (min-width : 1444px) { 
+
+    div.gridWrapper {
+    position: absolute;
+    height: 2304px;
+    width: 1536px;
+    top: 135em;
+}
+
+div.grid {
+    position: absolute;
+    width: 1536px;
+    height: 2304px;
+    margin-left: 0px;
+}
+
+
+/*For the best layout, margin should be added to .card and padding should be added to .front and .back*/
+
+.card {
+    position: absolute;
+    margin: 0;
+    width: 384px;
+    height: 568px;
+}
+
+
+/* fluid 5 columns */
+
+.grid-sizer,
+.grid-item {
+    width: 384px;
+    /* height: auto;*/
+    height: 568px;
+    /*margin: auto;*/
+}
+
+div.grid-item img {
+    width: 384px;
+    height: 568px;
+    position: relative;
+    z-index: 1;
+}
+
+    }
+
+

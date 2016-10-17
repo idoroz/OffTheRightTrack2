@@ -1,0 +1,61 @@
+
+/*-----------------------------------------------------*/
+
+
+/*|                                                   |*/
+
+
+/*|      ----------- GALLERY STYLING ----------       |*/
+
+
+/*|                                                   |*/
+
+
+/*-----------------------------------------------------*/
+
+div.diy-slideshow.gallery {
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    height: 870px;
+    z-index: -1;
+    text-align: center;
+}
+
+.lg-backdrop {
+    background-color: white;
+}
+
+.lg-toolbar {
+    background-color: white;
+}
+
+.lg-outer .lg-thumb-outer {
+    background-color: white;
+}
+
+.lg-outer .lg-toogle-thumb {
+    background-color: white;
+}
+
+.lg-outer .lg-toogle-thumb:hover {
+    background-color: white;
+}
+
+.lg-outer .lg-toogle-thumb:hover {
+    color: black;
+}
+
+.lg-actions .lg-next,
+.lg-actions .lg-prev {
+    background-color: white;
+}
+
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover {
+    color: black;
+}
+
+.lg-actions .lg-next, .lg-actions .lg-prev {
+    font-size: 5em;
+}
