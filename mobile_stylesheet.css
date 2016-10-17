@@ -183,7 +183,7 @@ div.left {
 
 div.zanzoImg {
 
-    margin-top: 26em;
+    margin-top: 31em;
     transform: scale(0.8);
 }
 
@@ -282,12 +282,12 @@ div.right h1 {
 }
 
 #backToTop {
-    position: absolute;
+position: absolute;
     color: black;
     font-size: 1em;
     padding: 0.5em;
-    margin-top: 17em;
-    left: 5.8em;
+    margin-top: -1em;
+    left: 6em;
     width: 37.3%;
     border: 0.2rem solid black;
     border-radius: 25px;
