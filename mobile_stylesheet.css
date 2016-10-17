@@ -282,13 +282,12 @@ div.right h1 {
 }
 
 #backToTop {
- position: absolute;
+    position: absolute;
     color: black;
     font-size: 1em;
     padding: 0.5em;
-    margin-top: 63em;
-    left: 9.3em;
-
+    margin-top: 17em;
+    left: 5.8em;
     width: 37.3%;
     border: 0.2rem solid black;
     border-radius: 25px;
