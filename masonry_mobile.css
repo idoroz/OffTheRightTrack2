@@ -1,20 +1,14 @@
-h1.sketchHeader {
-    font-family: 'Jura', sans-serif;
-    font-weight: 400;
-    color: black;
-    font-size: 2em;
-}
 
 div.gridWrapper {
       position:absolute;
     height: 800px;
-    width: 100%;
+    width: 360px;
     top: 120em;
 }
 
 div.grid {
     position: absolute;
-    width: 100%;
+    width: 360px;
     height: 800px;
    
 }
@@ -25,8 +19,8 @@ div.grid {
 .card {
     position: absolute;
     margin: 0;
-    width: 137px;
-    height: 193px;
+    width: 120px;
+    height: 176px;
 }
 
 
@@ -34,15 +28,15 @@ div.grid {
 
 .grid-sizer,
 .grid-item {
-width: 137px;
+width: 120px;
     /* height: auto;*/
-    height: 193px;
+    height: 176px;
     /*margin: auto;*/
 }
 
 div.grid-item img {
-    width: 137px;
-    height: 193px;
+    width: 120px;
+    height: 176px;
     position: relative;
     z-index: 1
 }
@@ -52,13 +46,3 @@ div.toGalleryWrapper {
     width: 100%;
     text-align: center;
 }
-
-div.toGallery {
-    /*    position: absolute;*/
-    font-family: 'Jura', sans-serif;
-    font-weight: 400;
-    color: black;
-    font-size: 5em;
-    cursor: pointer;
-}
-

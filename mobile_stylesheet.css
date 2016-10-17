@@ -36,7 +36,7 @@ figure.show {
 
 div.DJ_Name {
     position: absolute;
-    top: 22.5em;
+    top: 19.5em;
     left: 1em;
     width: 130%;
     font-family: 'Jura', sans-serif;
@@ -53,18 +53,16 @@ color: black;
 }
 
 div.galleryBtn.homeToGallery {
-    position: absolute;
+position: absolute;
     color: black;
     font-size: 1em;
     padding: 0.5em;
     bottom: -4em;
-    left: 6.3em;
-
-    width: 37.3%;
+    left: 4.5em;
+    width: 36.7%;
     border: 0.2rem solid black;
     border-radius: 25px;
-    padding-left: 1.7em;
-
+    padding-left: 0.9em;
     /* transform: scale(0.5); */
 }
 
