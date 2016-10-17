@@ -1,70 +1,4 @@
-@media only screen  and (min-width : 1920px) {
 
-h1.sketchHeader {
-    font-family: 'Jura', sans-serif;
-    font-weight: 400;
-    color: black;
-    font-size: 2em;
-}
-
-div.gridWrapper {
-    position: absolute;
-    height: 2304px;
-    width: 1920px;
-    top: 135em;
-}
-
-div.grid {
-    position: absolute;
-    width: 1920px;
-    height: 2304px;
-    margin-left: 0px;
-}
-
-
-/*For the best layout, margin should be added to .card and padding should be added to .front and .back*/
-
-.card {
-    position: absolute;
-    margin: 0;
-    width: 480px;
-    height: 768px;
-}
-
-
-/* fluid 5 columns */
-
-.grid-sizer,
-.grid-item {
-    width: 480px;
-    /* height: auto;*/
-    height: 768px;
-    /*margin: auto;*/
-}
-
-div.grid-item img {
-    width: 480px;
-    height: 768px;
-    position: relative;
-    z-index: 1;
-}
-
-div.toGalleryWrapper {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-div.toGallery {
-    /*    position: absolute;*/
-    font-family: 'Jura', sans-serif;
-    font-weight: 400;
-    color: black;
-    font-size: 5em;
-    cursor: pointer;
-}
-
-}
 
 /*-----------------------------------------------------*/
 
@@ -179,3 +113,74 @@ div.grid-item img {
     }
 
 
+
+    
+
+
+@media only screen  and (min-width : 1920px) {
+
+h1.sketchHeader {
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 2em;
+}
+
+div.gridWrapper {
+    position: absolute;
+    height: 2304px;
+    width: 1920px;
+    top: 135em;
+}
+
+div.grid {
+    position: absolute;
+    width: 1920px;
+    height: 2304px;
+    margin-left: 0px;
+}
+
+
+/*For the best layout, margin should be added to .card and padding should be added to .front and .back*/
+
+.card {
+    position: absolute;
+    margin: 0;
+    width: 480px;
+    height: 768px;
+}
+
+
+/* fluid 5 columns */
+
+.grid-sizer,
+.grid-item {
+    width: 480px;
+    /* height: auto;*/
+    height: 768px;
+    /*margin: auto;*/
+}
+
+div.grid-item img {
+    width: 480px;
+    height: 768px;
+    position: relative;
+    z-index: 1;
+}
+
+div.toGalleryWrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+div.toGallery {
+    /*    position: absolute;*/
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+}
