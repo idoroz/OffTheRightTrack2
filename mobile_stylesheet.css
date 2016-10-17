@@ -1,0 +1,298 @@
+
+body {
+        overflow-x: hidden !important;
+    width: 100% !important;
+}
+
+div.diy-slideshow {
+    margin-left: -15%;
+    height: 640px;
+    margin-top: 50%;
+    overflow: hidden;
+}
+
+div.diy-slideshow.mobileHomePage {
+    margin-left: -15%;
+    height: 640px;
+    margin-top: 50%;
+    overflow: hidden;
+}
+
+figure {
+position: absolute;
+    opacity: 0;
+    transition: 1s opacity;
+    width: 125%;
+    top: -3%;
+    /* height: 27%; */
+    left: -10%;
+}
+
+figure.show {
+    opacity: 1;
+    position: absolute;
+    transition: 1s opacity;
+}
+
+div.DJ_Name {
+    position: absolute;
+    top: 22.5em;
+    left: 1em;
+    width: 130%;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+div.DJ_Name span {
+color: black;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+div.galleryBtn.homeToGallery {
+    position: absolute;
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+    bottom: -4em;
+    left: 6.3em;
+
+    width: 37.3%;
+    border: 0.2rem solid black;
+    border-radius: 25px;
+    padding-left: 1.7em;
+
+    /* transform: scale(0.5); */
+}
+
+img.bio_3box {
+    top: 70em;
+}
+
+div.bioTitle {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+div.bioTextWrapper {
+    width: 90%;
+    height: 870px;
+    margin-top: 30em;
+    left: 1em;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: black;
+    position: absolute;
+    top: 0;
+    display: none;
+    overflow: hidden;
+}
+
+div.diy-slideshow.bio {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0;
+    height: 500px;
+    z-index: -1;
+}
+
+div.menuWrapper {
+    width: 75%;
+    height: 250px;
+    display: none;
+    justify-content: space-around;
+    position: absolute;
+    top: 105em;
+    left: 15%;
+}
+
+div.box {
+    width: 250px;
+    height: 250px;
+    /*  border: 1px solid black;*/
+    text-align: center;
+    line-height: 250px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+div.box img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: scale(1);
+}
+
+div.galleryTitle {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+}
+
+div.sketchTitle {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+}
+
+div.websiteTitle {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+}
+
+div.lg-hide-items .lg-toolbar {
+    opacity: 1;
+}
+
+
+div.diy-slideshow.aboutMe {
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    z-index: -1;
+    text-align: center;
+    margin-top: 65em;
+}
+
+div.aboutMeWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.left {
+
+  width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.aboutMebox img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: scale(0.8);
+}
+
+div.zanzoImg {
+
+    margin-top: 26em;
+    transform: scale(0.8);
+}
+
+img.aboutMeImg {
+    height: 290px;
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+div.right {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: black;
+    /*  border: 1px solid black;*/
+}
+
+div.aboutMeRightWrapper {
+position: absolute;
+    width: 100%;
+
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+div.right h1 {
+ font-size: 2.1em;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.socialLinkWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: scale(0.3);
+    padding-right: 2em;
+}
+
+.socialLink {
+    padding-left: 2em;
+}
+
+
+
+
+.lg-backdrop {
+    background-color: white;
+}
+
+.lg-toolbar {
+    background-color: white;
+}
+
+.lg-outer .lg-thumb-outer {
+    background-color: white;
+}
+
+.lg-outer .lg-toogle-thumb {
+    background-color: white;
+}
+
+.lg-outer .lg-toogle-thumb:hover {
+    background-color: white;
+}
+
+.lg-outer .lg-toogle-thumb:hover {
+    color: black;
+}
+
+.lg-actions .lg-next,
+.lg-actions .lg-prev {
+    background-color: white;
+}
+
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover {
+    color: black;
+}
+
+.section,
+.section .fp-slide,
+.section .fp-tableCell {
+    height: auto !important;
+    
+}
+
+#secondGalleryBtn {
+      position: absolute;
+    bottom: -75.5em;
+    /* text-align: center; */
+    left: 9.6em;
+}
+
+#backToTop {
+ position: absolute;
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 63em;
+    left: 9.3em;
+
+    width: 37.3%;
+    border: 0.2rem solid black;
+    border-radius: 25px;
+    
+}
