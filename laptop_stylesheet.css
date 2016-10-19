@@ -225,7 +225,7 @@ div.toGallery:hover {
 
 #aboutMe.section {
     position: absolute;
-    top: 240em;
+    top: 246em;
 
 
 }
@@ -547,7 +547,7 @@ div.toGallery:hover {
 
 #aboutMe.section {
     position: absolute;
-    top: 250em;
+    top: 260em;
 
 
 }
@@ -555,7 +555,7 @@ div.diy-slideshow.aboutMe {
     overflow: hidden;
     width: 90%;
     margin-left: 5%;
-    height: 950px;
+    height: 735px;
     z-index: -1;
     text-align: center;
 }
@@ -582,7 +582,7 @@ div.left {
 
 div.zanzoImg {
     height: inherit;
-    margin-top: 16em;
+    margin-top: 7.5em;
 }
 
 img.aboutMeImg {
@@ -606,7 +606,7 @@ div.right {
 div.aboutMeRightWrapper {
     /* position: absolute; */
     width: 93%;
-    margin-top: 32%;
+    margin-top: 19.5%;
     margin-left: -15%;
     /* border-left: 2px solid black; */
     left: 0;
