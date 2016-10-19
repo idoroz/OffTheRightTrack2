@@ -22,7 +22,7 @@ $(document).ready(function() {
 
             $('.sketchTitle').click(function (e) {
       e.preventDefault();
-         var sketchPagePosition = $('#sketchPage1').offset();
+         var sketchPagePosition = $('.gridWrapper').offset();
         $('html, body').animate({scrollTop: sketchPagePosition.top}, 1000);
       return false;
   });
